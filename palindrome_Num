@@ -1,3 +1,7 @@
+"A code for Palindrome number"
+
+#Palindrome number is the number which  remains the same when its digits are reversed.
+
 num = int(input("enter a number :"))
 temp = num
 reverse = 0
