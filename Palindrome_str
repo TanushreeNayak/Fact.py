@@ -1,13 +1,24 @@
 "A code for Palindrome string or not"
 
-word = input("Enter a string")
+word: str = input("Enter a string")
+
 # this will automatically generate reverse
 rev = ""
 for ch in word:
     rev = ch + rev
 
 print(word + " is : ", end="")
-print("Palindrome") if word == rev else print("Not Palindrome")
+print("Palindrome")
+if word == rev:
+    print("Palindrome")
+else:
+    print(" not Palindrome")
 
-print("string: " +  word)
-print("rev: " + rev)
+print("string: " + word)
+
+#The format() method formats the specified value(s) and insert them inside the string's placeholder.
+#The placeholders can be identified using named indexes {price}, numbered indexes {0}, or even empty placeholders {}
+#print("rev: {word}".format(rev)) , showing keyError
+#print("rev: {}".format(rev)) , priniting all statements as well else condition
+
+print("rev: {0}".format(rev))
