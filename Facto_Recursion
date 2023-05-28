@@ -1,9 +1,13 @@
+"A program of factorial number using Recurrsion"
+
 def factorial(n):
+#set base case when any = 1 return any
     any = 1
+# for loop do the range start from 2 and end for n +1
     for i in range(2, n + 1):
-        any *= i
+        any = any * i
     return any
 
-
+# for getting output give input and print it as well
 num = int(input("Enter A number:"))
 print("Factorial of", num, "is", factorial(num))
