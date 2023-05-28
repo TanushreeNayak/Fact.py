@@ -1,0 +1,13 @@
+"A code for Palindrome string or not"
+
+word = input("Enter a string")
+# this will automatically generate reverse
+rev = ""
+for ch in word:
+    rev = ch + rev
+
+print(word + " is : ", end="")
+print("Palindrome") if word == rev else print("Not Palindrome")
+
+print("string: " +  word)
+print("rev: " + rev)
