@@ -1,8 +1,13 @@
+"A program For Factorial"
+
+
 a = float(input("enter a :" ))
 b = int(input("enter b : "))
 
+#Formula
 d = b*b-4*a*c
 
+#conditions apply
 if d< 0:
     print("no real roots.")
 elif d == 0:
