@@ -1,12 +1,18 @@
+"A Program for prime number"
+
+
+#take a number input
 num = int(input("Enter any Number : "))
 x = 0
+
+#to know the number is prime or not apply condtions
 if num<2:
   x= 1
 else:
   for i in range(2,num):
     if num%i == 0:
       x = 1
-      break
+      break      (#come out from loop)
 
 if x == 1:
   print('Not Prime')
