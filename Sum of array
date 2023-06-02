@@ -1,0 +1,7 @@
+"Program for sum of arrays
+
+arr = [10, 20, 30, 40]
+
+#Using in-built function sum(arr), we can get the sum of the elements of the array passed to it.
+
+print(sum(arr))
