@@ -1,0 +1,9 @@
+"PROGRAM TO FIND SMALL AND LARGE NUMBER IN LIST
+
+arr = [1,99,2,88,3,77,4,66,5,55]
+#We can Sort the array using inbuilt sort()function
+# Minimum element is at index 0 and maximum is at index -1
+arr.sort()
+
+print (arr[0])
+print (arr[-1])
