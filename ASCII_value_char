@@ -1,0 +1,12 @@
+"PROGRAM to print ASCII VALUE of character
+
+#ASCII stands for American Standard Code for Information Interchange
+#Alphabets (  65 – 90  &  97 – 122  )
+
+
+new = input("char is : ")
+# convert new to Ascii value
+Ascii_val = ord(new)
+
+# print Value
+print('The ASCII value of', new, 'is', Ascii_val)
