@@ -1,0 +1,8 @@
+"PROGRAM TO FIND SIZE OF TUPLES"
+
+a = (1, 2, 3, "tsn")
+b = (5, 6, 7, "nyk", "scam_1992")
+
+#len() function is in-built function in python
+
+print("size of tuple is", len(a), len(b))
